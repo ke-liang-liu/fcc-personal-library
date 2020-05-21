@@ -24,6 +24,7 @@ module.exports = function (app) {
     
     .post(function (req, res){
       var title = req.body.title;
+      
       //response will contain new book object including atleast _id and title
     })
     
